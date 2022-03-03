@@ -7,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyFirstComponentComponent implements OnInit {
 
-  age:number = 0;
+  age:number;
+  names:Array<string>;
 
   constructor() {
     this.age = 18;
+    this.names = ['Jose', 'Rosa', 'Robin', 'Wilson', 'Luisa'];
   }
 
   ngOnInit(): void {

@@ -1,41 +1,42 @@
-# See http:/help.github.com/ignore-files/ for more about ignoring files.
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
 # Compiled output
-./tutorial/dist
-./tutorial/tmp
-./tutorial/out-tsc
-./tutorial/bazel-out
+/dist
+/tmp
+/out-tsc
+/bazel-out
 
 # Node
-./tutorial/node_modules
-./tutorial/npm-debug.log
-./tutorial/yarn-error.log
+tutorial/node_modules
+npm-debug.log
+yarn-error.log
 
 # IDEs and editors
-./tutorial/.idea/
-./tutorial/.project
-./tutorial/.classpath
-./tutorial/.c9/
-./tutorial/*.launch
-./tutorial/.settings/
-./tutorial/*.sublime-workspace
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
 # Visual Studio Code
-./tutorial/.vscode/*
-./tutorial/!.vscode/settings.json
-./tutorial/!.vscode/tasks.json
-./tutorial/!.vscode/launch.json
-./tutorial/!.vscode/extensions.json
-./tutorial/.history/*
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
 
 # Miscellaneous
-./tutorial/.angular/cache
-./tutorial/.sass-cache/
-./tutorial/connect.lock
-./tutorial/coverage
-./tutorial/libpeerconnection.log
-./tutorial/testem.log
-./tutorial/typings
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
 
 # System files
-./tutorial/.DS_Store
-./tutorial/Thumbs.db
+.DS_Store
+Thumbs.db

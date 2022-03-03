@@ -1,2 +1,10 @@
 <p>my-first-component works!</p>
 <h3>Your age is: {{age}}</h3>
+
+<div *ngIf="age >= 18">
+    You are older age!
+</div>
+
+<div *ngIf="age < 18">
+    You are under age!
+</div>

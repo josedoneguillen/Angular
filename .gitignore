@@ -4,12 +4,12 @@
 ./tutorial/tmp
 ./tutorial/out-tsc
 ./tutorial/bazel-out
-./tutorial/
+
 # Node
 ./tutorial/node_modules
 ./tutorial/npm-debug.log
 ./tutorial/yarn-error.log
-./tutorial/
+
 # IDEs and editors
 ./tutorial/.idea/
 ./tutorial/.project
@@ -18,7 +18,7 @@
 ./tutorial/*.launch
 ./tutorial/.settings/
 ./tutorial/*.sublime-workspace
-./tutorial/
+
 # Visual Studio Code
 ./tutorial/.vscode/*
 ./tutorial/!.vscode/settings.json
@@ -26,7 +26,7 @@
 ./tutorial/!.vscode/launch.json
 ./tutorial/!.vscode/extensions.json
 ./tutorial/.history/*
-./tutorial/
+
 # Miscellaneous
 ./tutorial/.angular/cache
 ./tutorial/.sass-cache/
@@ -35,7 +35,7 @@
 ./tutorial/libpeerconnection.log
 ./tutorial/testem.log
 ./tutorial/typings
-./tutorial/
+
 # System files
 ./tutorial/.DS_Store
 ./tutorial/Thumbs.db

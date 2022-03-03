@@ -1,19 +1,24 @@
+<hr>
 <p>my-first-component works!</p>
 
-<button (click)="increaseAge()">Increase age +</button>
-<button (click)="decreaseAge()">Decrease age -</button>
+<div class="py-3">
+    <button (click)="increaseAge()" class="btn btn-success">Increase age +</button>
+    <button (click)="decreaseAge()" class="btn btn-danger ms-3">Decrease age -</button>
+</div>
 
-<h3 [style.background] = "age >= 18 ? 'green' : 'red' ">Your age is: {{age}}</h3>
+<h3 [style.background] = "age >= 18 ? 'green' : 'red' " class="text-light p-5">Your age is: {{age}}</h3>
 
-<div *ngIf="age >= 18">
+<div *ngIf="age >= 18" class="alert alert-success">
     You are older age!
 </div>
 
-<div *ngIf="age < 18">
+<div *ngIf="age < 18" class="alert alert-danger">
     You are under age!
 </div>
 
-<h3>List of names</h3>
-<ul>
-    <li *ngFor="let name of names; let i = index">{{i + '. ' + name}}</li>
-</ul>
+<div class="py-3">
+    <h3>List of names</h3>
+    <ul class="list-group">
+        <li class="list-group-item" *ngFor="let name of names; let i = index">{{i + '. ' + name}}</li>
+    </ul>
+</div>

@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyFirstComponentComponent implements OnInit {
 
-  constructor() { }
+  age:number = 0;
+
+  constructor() {
+    this.age = 18;
+  }
 
   ngOnInit(): void {
+    console.log('my-first-component has loaded succesfully');
   }
 
 }

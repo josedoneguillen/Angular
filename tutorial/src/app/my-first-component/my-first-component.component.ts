@@ -17,4 +17,12 @@ export class MyFirstComponentComponent implements OnInit {
     console.log('my-first-component has loaded succesfully');
   }
 
+  increaseAge(){
+    this.age += 1;
+  }
+
+  decreaseAge(){
+    this.age -= 1;
+  }
+
 }

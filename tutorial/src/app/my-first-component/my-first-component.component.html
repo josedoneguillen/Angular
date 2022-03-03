@@ -1,6 +1,9 @@
 <p>my-first-component works!</p>
 <h3 [style.background] = "age >= 18 ? 'green' : 'red' ">Your age is: {{age}}</h3>
 
+<button (click)="increaseAge()">Increase age +</button>
+<button (click)="decreaseAge()">Decrease age -</button>
+
 <div *ngIf="age >= 18">
     You are older age!
 </div>
